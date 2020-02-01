@@ -1005,7 +1005,7 @@ input, select, button, textarea{
 	font-family: SamsungOne-700;
 	margin-top: 140px;
 }
-.contact_left form{
+/* .contact_left form{
 	width: 100%;
 	max-width: 350px;
 	height: auto;
@@ -1039,7 +1039,7 @@ input, select, button, textarea{
     text-transform: uppercase;
     border: none;
     margin-top: 45px;
-}
+} */
 .contact_left p{
 	float: left;
 	width: 100%;
@@ -1074,7 +1074,7 @@ input, select, button, textarea{
 	height: auto;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: space-around;
 	margin: 0px;
 	margin-top: 18px;
 	float: left;
