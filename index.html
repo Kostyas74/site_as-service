@@ -516,10 +516,10 @@
         <div class="contact_center">
            <div class="contact_row">
               <div class="contact_left">
-         
+
               <b>Наши контакты:<br>
 <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-<span itemprop="postalCode">454080</span>,
+<span itemprop="postalCode">454080</span>
 <span itemprop="addressLocality">г. Челябинск</span><br>
 <span itemprop="streetAddress">ул. Энтузиастов д.16</span><br>
 <span itemprop="name">ООО "АС Сервис"</span></b>
@@ -585,7 +585,36 @@
      </div>
 
      <!-- Order Modal -->
-          <div class="remodal remodal-is-initialized remodal-is-opened" style="max-width: 470px;" data-remodal-id="mdl_time" tabindex="-1">
+     <div class="remodal remodal-is-initialized remodal-is-opened" style="max-width: 470px;" data-remodal-id="mdl_ord" tabindex="-1">
+
+     <button data-remodal-action="close" class="remodal-close"></button>
+       <h4 class="h1_mdl">Отправить заявку</h4>
+        <form class="mdl_form">
+          <div class="group">
+            <input type="text" required="required"/>
+            <span class="highlight"></span><span class="bar"></span>
+            <label>ФИО*</label>
+          </div>
+          <div class="group">
+            <input type="text" id="phone2" required="required"/>
+            <span class="highlight"></span><span class="bar"></span>
+            <label>Номер телефона*</label>
+          </div>
+          <div class="group">
+            <input type="text" required="required"/>
+            <span class="highlight"></span><span class="bar"></span>
+            <label>E-mail</label>
+          </div>
+          <div class="group">
+            <input type="text" required="required"/>
+            <span class="highlight"></span><span class="bar"></span>
+            <label>Опишите, что случилось</label>
+          </div>
+        </form>
+       <button class="btn_mdl">ОТПРАВИТЬ</button>
+     </div>
+
+    <div class="remodal remodal-is-initialized remodal-is-opened" style="max-width: 470px;" data-remodal-id="mdl_time" tabindex="-1">
 
      <button data-remodal-action="close" class="remodal-close"></button>
        <h4 class="h1_mdl">Режим работы</h4>
@@ -600,6 +629,25 @@
           <p><em>Вс</em> выходной</p>
        </div>
      </div>
+
+     <div class="remodal remodal-is-initialized remodal-is-opened" style="max-width: 470px;" data-remodal-id="mdl_call" tabindex="-1">
+
+          <button data-remodal-action="close" class="remodal-close"></button>
+            <h4 class="h1_mdl">Заказать звонок</h4>
+            <form class="mdl_form">
+               <div class="group">
+                 <input type="text" required="required"/>
+                 <span class="highlight"></span><span class="bar"></span>
+                 <label>Ваше имя*</label>
+               </div>
+               <div class="group">
+                 <input type="text" id="phone3" required="required"/>
+                 <span class="highlight"></span><span class="bar"></span>
+                 <label>Номер телефона*</label>
+               </div>
+             </form>
+            <button class="btn_mdl">ОТПРАВИТЬ</button>
+          </div>
 
      <!-- JS -->
      <script src="js/main.min.js"></script>
